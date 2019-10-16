@@ -5,7 +5,7 @@
 /vendor
 .env
 .env.backup
-.DS_Store
+*.DS_Store*
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
