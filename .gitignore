@@ -3,6 +3,9 @@
 /public/storage
 /storage/*.key
 /vendor
+/public/json
+/public/css
+/public/fonts
 .env
 .env.backup
 *.DS_Store*
@@ -11,3 +14,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.vscode
+

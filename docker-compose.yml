@@ -1,17 +1,17 @@
-# mysql:
-#   image: mysql
-#   container_name: database
+# test:
+#   image: laravel
+#   container_name: ttt  
+#   volumes:
+#     - .:/var/www/default
+#     - ./build/nginx.conf:/etc/nginx/conf.d/default.conf
 #   ports:
-#     - 6666:3306
-#   environment:
-#     MYSQL_DATABASE: course
-#     MYSQL_ROOT_PASSWORD: 123456
+#     - 8080:80
 
 php:
   image: php:fpm-alpine
   container_name: php
   volumes:
-    - .:/var/www/course
+    - .:/var/www/default
   entrypoint:
     - php-fpm
 

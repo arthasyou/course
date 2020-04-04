@@ -13,8 +13,14 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: EtymologyBase
     },
+
+    // {
+    //   path: '/',
+    //   name: 'Home',
+    //   component: Home
+    // },
 
     // Etymology
     {
