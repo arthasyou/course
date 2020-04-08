@@ -10,17 +10,17 @@ export default new Router({
   // mode: 'history',
   // base: process.env.BASE_URL,
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'Home',
-    //   component: EtymologyBase
-    // },
-
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: EtymologyBase
     },
+
+    // {
+    //   path: '/',
+    //   name: 'Home',
+    //   component: Home
+    // },
 
     // Etymology
     {
